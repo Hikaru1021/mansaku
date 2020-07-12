@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "634400319573",
+    "firebase_url": "https://mansaku-apps.firebaseio.com",
+    "project_id": "mansaku-apps",
+    "storage_bucket": "mansaku-apps.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:634400319573:android:e508fd7e51b893158c8cdc",
+        "android_client_info": {
+          "package_name": "jp.egiction.mansaku"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "634400319573-tbdbbmlunv0h5vq63nsopjlvckl4rd9l.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCmVblrZQqdAaIruEDHKOy02X9hdj3nMdQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "634400319573-tbdbbmlunv0h5vq63nsopjlvckl4rd9l.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "634400319573-vbkob3am1jpu3ls5glnf4djsea3t1bqc.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "jp.egiction.mansaku"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

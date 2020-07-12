@@ -1,3 +1,4 @@
+import 'package:mansaku/book_list_page.dart';
 import 'package:flutter/material.dart';
 import 'package:mansaku/main_model.dart';
 import 'package:provider/provider.dart';
@@ -28,7 +29,10 @@ class MyApp extends StatelessWidget {
                     RaisedButton(
                       child: Text('ボタン'),
                       onPressed: (){
-                        model.changeHikaruText();
+                        Navigator.push(
+                          context,
+                          MaterialPageRoute(builder: (context) => BookListPage()),
+                        );
                       },
                     ),
                   ],
